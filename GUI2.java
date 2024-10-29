@@ -34,11 +34,11 @@ public class GUI2 implements ActionListener {
         frame.pack();
         frame.setVisible(true);
     }
-    public static void main(String[] args){
+    public static void main (String[] args){
         new GUI2();
     }
 
-    public void actionPerformed(ActionEvent e){
+    public void actionPerformed (ActionEvent e){
         count++;
         label.setText("Number of clicks: " + count);
     }
